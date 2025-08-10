@@ -1,0 +1,44 @@
+ 
+        :root {
+            /* Brand Colors */
+            --color-primary: #0057ff;
+            --color-secondary: #ff6b6b;
+            --color-accent: #f5af19;
+            --color-extra: #21d4fd;
+
+            /* Text Colors */
+            --color-text: #ffffff;
+            --color-text-hover: #ffd700;
+
+            /* Font */
+            --font-family: 'Poppins', sans-serif;
+
+            /* Animation Speed */
+            --animation-speed: 15s;
+        }
+
+        /* Animated gradient */
+        @keyframes gradientMove {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .animated-gradient {
+            background: linear-gradient(-45deg,
+                    var(--color-secondary),
+                    var(--color-primary),
+                    var(--color-accent),
+                    var(--color-extra));
+            background-size: 400% 400%;
+            animation: gradientMove var(--animation-speed) ease infinite;
+            font-family: var(--font-family);
+        }
