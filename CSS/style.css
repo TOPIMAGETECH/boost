@@ -1,44 +1,74 @@
- 
-        :root {
-            /* Brand Colors */
-            --color-primary: #0057ff;
-            --color-secondary: #ff6b6b;
-            --color-accent: #f5af19;
-            --color-extra: #21d4fd;
+:root {
+  /* Colors */
+  --color-gray-900: #1a202c;   /* Equivalent to Tailwind gray-900 */
+  --color-white: #ffffff;
+  --color-pink-light: #ff4081; /* Bright pink */
+  --color-pink-dark: #e91e63;  /* Darker pink */
 
-            /* Text Colors */
-            --color-text: #ffffff;
-            --color-text-hover: #ffd700;
+  /* Font */
+  --font-family: 'Poppins', sans-serif;
 
-            /* Font */
-            --font-family: 'Poppins', sans-serif;
+  /* Animation Speed */
+  --animation-speed: 15s;
+}
 
-            /* Animation Speed */
-            --animation-speed: 15s;
-        }
+/* Apply font-family globally */
+body, button, input, select, textarea {
+  font-family: var(--font-family);
+}
 
-        /* Animated gradient */
-        @keyframes gradientMove {
-            0% {
-                background-position: 0% 50%;
-            }
+/* Background and text colors can be used as utility classes or directly */
 
-            50% {
-                background-position: 100% 50%;
-            }
+.bg-gray-900 {
+  background-color: var(--color-gray-900) !important;
+}
 
-            100% {
-                background-position: 0% 50%;
-            }
-        }
+.text-white {
+  color: var(--color-white) !important;
+}
 
-        .animated-gradient {
-            background: linear-gradient(-45deg,
-                    var(--color-secondary),
-                    var(--color-primary),
-                    var(--color-accent),
-                    var(--color-extra));
-            background-size: 400% 400%;
-            animation: gradientMove var(--animation-speed) ease infinite;
-            font-family: var(--font-family);
-        }
+/* Hover pink text */
+.hover\:text-pink-light:hover {
+  color: var(--color-pink-light);
+}
+
+/* Example usage of pink colors */
+.btn-primary {
+  background-color: var(--color-pink-dark);
+  color: var(--color-white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-pink-light);
+}
+
+/* Animated gradient */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient {
+  background: linear-gradient(-45deg,
+      var(--color-pink-light),
+      var(--color-pink-dark),
+      var(--color-pink-light),
+      var(--color-pink-dark));
+  background-size: 400% 400%;
+  animation: gradientMove var(--animation-speed) ease infinite;
+  font-family: var(--font-family);
+}
