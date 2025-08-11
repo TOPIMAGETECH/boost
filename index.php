@@ -1,43 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- Header -->
+<?php 
+  // Include the header template
+  include("template/header.php"); 
+?>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Boostrika</title>
+<!-- Mobile Menu -->
+<?php 
+  // Include the mobile navigation bar template
+  include("template/mobileNavbar.php"); 
+?>
 
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
+<?php 
+  // Include the hero banner template
+  include("template/heroBanner.php"); 
+?>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="CSS/style.css">
+<?php
+  // Include the main content template
+  include("template/main.php");
+?>
 
-  <!-- Font Awesome Icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-KtE7Cz1YqWQjKXBg6s2f5M7UQO3T7A5J8fV9JtF4XZlByb7hWn2Zp6mLfw1c5/wzBHL2Tg3iQdyZbDg0pPrQkQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer" />
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png">
-</head>
-
-<body class="bg-gray-900 text-white font-poppins">
-
-  <!-- Header -->
-  <?php include("template/header.php") ?>
-
-  <!-- Mobile Menu -->
-  <?php include("template/mobileNavbar.php") ?>
-
-  <!-- JavaScript -->
-  <script src="JS/script.js"></script>
+<!-- JavaScript -->
+<script src="JS/script.js"></script> <!-- Load custom JavaScript file -->
 
 </body>
-
 </html>

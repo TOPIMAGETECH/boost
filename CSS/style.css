@@ -12,6 +12,15 @@
   --animation-speed: 15s;
 }
 
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  
+}
+
 /* Apply font-family globally */
 body, button, input, select, textarea {
   font-family: var(--font-family);

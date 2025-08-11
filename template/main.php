@@ -1,0 +1,275 @@
+<section class="how-it-works">
+    <!-- Decorative gradient elements -->
+    <div class="decor decor-top-right"></div>
+    <div class="decor decor-bottom-left"></div>
+
+    <div class="container">
+        <h2>
+            <span class="gradient-text">How It Works</span>
+            <span class="underline"></span>
+        </h2>
+        <p class="section-description">
+            Boost your social media presence in just 5 simple steps with our powerful platform
+        </p>
+
+        <!-- Scroll arrows -->
+        <div class="scroll-arrows">
+            <div class="arrow arrow-left"><i class="fas fa-chevron-left"></i></div>
+            <div class="arrow arrow-right"><i class="fas fa-chevron-right"></i></div>
+        </div>
+
+        <div class="steps">
+            <!-- Step 1 -->
+            <div class="step">
+                <div class="step-icon"><i class="fas fa-user-plus"></i></div>
+                <div class="step-number">1</div>
+                <h3>Create an Account</h3>
+                <p>Sign up quickly with your email or phone number.</p>
+                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=500&q=80" alt="Person signing up on a device" class="step-img">
+            </div>
+
+            <!-- Step 2 -->
+            <div class="step">
+                <div class="step-icon"><i class="fas fa-list-ul"></i></div>
+                <div class="step-number">2</div>
+                <h3>Choose a Service</h3>
+                <p>Select from Instagram, Facebook, TikTok, and more.</p>
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=500&q=80" alt="Social media service selection" class="step-img">
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step">
+                <div class="step-icon"><i class="fas fa-key"></i></div>
+                <div class="step-number">3</div>
+                <h3>Enter Details</h3>
+                <p>Provide your username or link — no password needed.</p>
+                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=500&q=80" alt="Entering account details" class="step-img">
+            </div>
+
+            <!-- Step 4 -->
+            <div class="step">
+                <div class="step-icon"><i class="fas fa-credit-card"></i></div>
+                <div class="step-number">4</div>
+                <h3>Make Payment</h3>
+                <p>Pay securely via Mobile Money, Card, or other options.</p>
+                <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=500&q=80" alt="Secure payment process" class="step-img">
+            </div>
+
+            <!-- Step 5 -->
+            <div class="step">
+                <div class="step-icon"><i class="fas fa-chart-line"></i></div>
+                <div class="step-number">5</div>
+                <h3>Watch Your Growth</h3>
+                <p>Your followers, likes, or views will increase instantly.</p>
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=500&q=80" alt="Growth analytics chart" class="step-img">
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<style>
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --color-gray-900: #1a202c;
+    --color-white: #fff;
+    --color-pink-light: #ff4081;
+    --color-pink-dark: #e91e63;
+}
+
+/* Main section */
+.how-it-works {
+    font-family: var(--font-family);
+    background-color: var(--color-gray-900);
+    color: var(--color-white);
+    padding: 5rem 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Decorative background elements */
+.decor {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.1;
+    z-index: 0;
+}
+.decor-top-right {
+    top: -100px;
+    right: -100px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, var(--color-pink-light) 0%, transparent 70%);
+}
+.decor-bottom-left {
+    bottom: -150px;
+    left: -150px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, var(--color-pink-dark) 0%, transparent 70%);
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Title styling */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+.gradient-text {
+    background: linear-gradient(to right, var(--color-pink-light), var(--color-pink-dark));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.underline {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, var(--color-pink-light), var(--color-pink-dark));
+    border-radius: 3px;
+}
+
+.section-description {
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    font-size: 1.1rem;
+    color: rgba(255,255,255,0.7);
+}
+
+/* Scroll arrows */
+.scroll-arrows {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    pointer-events: none;
+}
+.arrow {
+    background: rgba(0,0,0,0.3);
+    color: var(--color-white);
+    padding: 0.5rem;
+    border-radius: 50%;
+    pointer-events: auto;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.arrow:hover {
+    background: rgba(255, 64, 129, 0.5);
+}
+.arrow-left {
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.arrow-right {
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Steps */
+.steps {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+    scroll-behavior: smooth;
+}
+.steps::-webkit-scrollbar { display: none; }
+
+.step {
+    background: linear-gradient(145deg, rgba(26, 32, 44, 0.8), rgba(42, 50, 68, 0.8));
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    scroll-snap-align: start;
+    min-width: 250px;
+}
+.step:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(233, 30, 99, 0.2);
+    border-color: rgba(255, 64, 129, 0.3);
+}
+
+.step-icon {
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 64, 129, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    font-size: 2rem;
+    color: var(--color-pink-light);
+}
+
+.step-number {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    background: var(--color-pink-light);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.step h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.step p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1.5rem;
+}
+
+.step-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .steps {
+        flex-wrap: nowrap;
+    }
+}
+</style>
+
+<script>
+document.querySelector('.arrow-left').addEventListener('click', () => {
+    document.querySelector('.steps').scrollBy({ left: -300, behavior: 'smooth' });
+});
+document.querySelector('.arrow-right').addEventListener('click', () => {
+    document.querySelector('.steps').scrollBy({ left: 300, behavior: 'smooth' });
+});
+</script>
