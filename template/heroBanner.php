@@ -3,7 +3,7 @@
     <div class="hero-inner text-center lg:text-left max-w-2xl lg:mr-12">
         <!-- Hero Title -->
         <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-[var(--color-white)] mb-6 tracking-wider">
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-pink-light)] to-[var(--color-pink-dark)]">Welcome to Bismark Boost X</span>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-pink-light)] to-[var(--color-pink-dark)]">Welcome to Boostrika</span>
         </h1>
 
         <!-- Hero Description -->
