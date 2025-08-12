@@ -4,6 +4,8 @@
 include("template/header.php");
 ?>
 
+<?php include("template/popUpMessages.php"); ?>
+
 <!-- Mobile Menu -->
 <?php
 // Include the mobile navigation bar template (for responsive navigation)
