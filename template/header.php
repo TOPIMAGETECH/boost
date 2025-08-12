@@ -67,7 +67,7 @@
         <div class="flex space-x-10 font-semibold">
           <?php
           $navItems = [
-            ['name' => 'Home', 'link' => '#', 'icon' => 'fa-home'],
+            ['name' => 'Home', 'link' => 'index.php', 'icon' => 'fa-home'],
             ['name' => 'Services', 'link' => '#', 'icon' => 'fa-concierge-bell', 'dropdown' => [
               ['name' => 'Instagram', 'link' => 'https://instagram.com', 'icon' => 'fab fa-instagram'],
               ['name' => 'TikTok', 'link' => 'https://tiktok.com', 'icon' => 'fab fa-tiktok'],

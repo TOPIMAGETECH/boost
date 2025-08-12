@@ -43,7 +43,7 @@
         <!-- List of Useful Links -->
         <li><a href="#" class="hover:text-pink-400">Login</a></li>
         <li><a href="#" class="hover:text-pink-400">Sign Up</a></li>
-        <li><a href="#" class="hover:text-pink-400">About Us</a></li>
+        <li><a href="./pages/about_us.php" class="hover:text-pink-400">About Us</a></li>
         <li><a href="#" class="hover:text-pink-400">Contact Us</a></li>
         <li><a href="#" class="hover:text-pink-400">FAQ</a></li>
         <li><a href="#" class="hover:text-pink-400">Blog</a></li>
