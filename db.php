@@ -2,8 +2,8 @@
 // db.php -- include where needed
 $DB_HOST = '127.0.0.1';
 $DB_NAME = ' review_system ';
-$DB_USER = 'root';
-$DB_PASS = '';
+$DB_USER = 'opoku12';
+$DB_PASS = 'Image@1321@@@';
 $DB_DSN  = "mysql:host={$DB_HOST};dbname={$DB_NAME};charset=utf8mb4";
 
 $options = [
