@@ -7,7 +7,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
+
   <!-- Primary Meta Tags -->
   <title>Boostrika - The Best SMM Services for Instagram, TikTok & More</title>
   <meta name="robots" content="index, follow">
@@ -16,29 +16,37 @@
   <meta name="theme-color" content="#ffffff">
   <meta name="title" content="Boostrika - Premium SMM Services for Instagram, TikTok & More">
   <meta name="description" content="Get real Instagram followers, TikTok views, and YouTube subscribers instantly. Ghana's #1 social media marketing platform with secure payments and 24/7 support.">
-  
+
   <!-- Open Graph / Facebook Meta Tags -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://boostrika.com/">
   <meta property="og:title" content="Boostrika - Premium SMM Services for Instagram, TikTok & More">
   <meta property="og:description" content="Get real Instagram followers, TikTok views, and YouTube subscribers instantly. Ghana's #1 social media marketing platform.">
   <meta property="og:image" content="https://boostrika.com/images/social-preview.jpg">
-  
+
   <!-- Twitter Meta Tags -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://boostrika.com/">
   <meta property="twitter:title" content="Boostrika - Premium SMM Services for Instagram, TikTok & More">
   <meta property="twitter:description" content="Get real Instagram followers, TikTok views, and YouTube subscribers instantly. Ghana's #1 social media marketing platform.">
   <meta property="twitter:image" content="https://boostrika.com/images/social-preview.jpg">
-  
+
+
+
+  <meta name="google-site-verification" content="0UmQRsrgcGmMFc2gsb2I3vG_7auNx3E_60oACIv75VQ" />
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="/favicon.icon">
   <!--  -->
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  
+
   <!-- Canonical URL -->
   <link rel="canonical" href="https://boostrika.com/" />
-  
+
+
+
+
+
   <!-- Structured Data / Schema Markup -->
   <script type="application/ld+json">
     {
@@ -55,7 +63,7 @@
       ]
     }
   </script>
-  
+
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -110,11 +118,11 @@
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="CSS/style.css">
-  
+
   <!-- Preload Critical Resources -->
   <link rel="preload" href="CSS/style.css" as="style">
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" as="style">
-  
+
   <!-- DNS Prefetch -->
   <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
   <link rel="dns-prefetch" href="https://fonts.googleapis.com">
@@ -132,9 +140,9 @@
           <div class="flex items-center space-x-3">
             <div class="relative">
               <div class="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-full blur opacity-75 animate-pulse-slow"></div>
-              <img src="https://i.postimg.cc/RFg6RS9r/passcohub.png"
-                alt="Boostrika Logo"
-                class="relative w-12 h-12 rounded-full border-2 border-white/10 hover:border-transparent transition-all duration-300">
+              <a href="index.php"><img src="https://i.postimg.cc/RFg6RS9r/passcohub.png"
+                  alt="Boostrika Logo"
+                  class="relative w-14 h-14 rounded-full border-2 border-white/10 hover:border-transparent transition-all duration-300"></a>
             </div>
             <span class="text-2xl font-bold gradient-text">Boostrika</span>
           </div>
