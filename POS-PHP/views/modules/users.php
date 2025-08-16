@@ -1,5 +1,6 @@
 
 <div class="content-wrapper">
+	<!-- Log on to codeastro.com for more projects! -->
   <section class="content-header">
 
     <h1>
@@ -79,7 +80,7 @@
 
                     }else{
 
-                      echo '<td><img src="https://i.postimg.cc/G2B2Yqf9/prfplaceholder.png" class="img-thumbnail" width="40px"></td>';
+                      echo '<td><img src="views/img/users/default/anonymous.png" class="img-thumbnail" width="40px"></td>';
                     
                     }
 
@@ -227,7 +228,7 @@
 
               <p class="help-block">Maximum size 2Mb</p>
 
-              <img class="thumbnail preview" src="https://i.postimg.cc/G2B2Yqf9/prfplaceholder.png" width="100px">
+              <img class="thumbnail preview" src="views/img/users/default/prfplaceholder.png" width="100px">
 
             </div>
 
@@ -365,7 +366,7 @@
 
               <p class="help-block">Maximum size 2Mb</p>
 
-              <img class="thumbnail preview" src="https://i.postimg.cc/G2B2Yqf9/prfplaceholder.png" alt="" width="100px">
+              <img class="thumbnail preview" src="views/img/users/default/anonymous.png" alt="" width="100px">
 
               <input type="hidden" name="currentPicture" id="currentPicture">
 
