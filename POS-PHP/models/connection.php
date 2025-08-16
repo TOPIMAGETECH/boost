@@ -6,7 +6,8 @@ class Connection
     {
         try {
             $link = new PDO(
-                "mysql:host=localhost;dbname=posystem",
+                "mysql:host= localhost:3306;
+                dbname=posystem",
                 "boosdsbd_opoku12",   // clean username
                 "Image@1321@@@"       // clean password
             );
