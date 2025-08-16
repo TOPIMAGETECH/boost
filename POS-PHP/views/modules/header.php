@@ -2,10 +2,11 @@
     <!-- Logo -->
     <a href="home" class="logo">
         <span class="logo-mini">
-            <img class="img-responsive" src="views/img/template/icono-blanco.png" style="padding: 10px">
+            <img class="img-responsive" src="https://i.postimg.cc/qvB5jYxb/icono-negro.png" style="padding: 10px">
+            <!-- this image are store in a site called postimage so to make any change you need to visi the main site -->
         </span>
         <span class="logo-lg">
-            <img class="img-responsive" src="views/img/template/logo-blanco-lineal.png" style="padding: 10px 0">
+            <img class="img-responsive" src="https://i.postimg.cc/YqzPNkYL/logo-blanco-lineal.png" style="padding: 10px 0">
         </span>
     </a>
 
@@ -67,7 +68,7 @@
                             if (!empty($_SESSION["photo"])) {
                                 echo '<img src="'.$_SESSION["photo"].'" class="user-image">';
                             } else {
-                                echo '<img class="user-image" src="views/img/users/default/anonymous.png">';
+                                echo '<img class="user-image" src="https://i.postimg.cc/G2B2Yqf9/prfplaceholder.png">';
                             }
                         ?>
                         <span class="hidden-xs"><?php echo $_SESSION["name"]; ?></span>
@@ -79,13 +80,13 @@
                                 if (!empty($_SESSION["photo"])) {
                                     echo '<img src="'.$_SESSION["photo"].'" class="img-circle">';
                                 } else {
-                                    echo '<img class="img-circle" src="views/img/users/default/anonymous.png">';
+                                    echo '<img class="img-circle" src="https://i.postimg.cc/G2B2Yqf9/prfplaceholder.png">';
                                 }
                             ?>
-                            <p>
+                            <!-- <p>
                                 <?php echo $_SESSION["name"]; ?> - <?php echo $_SESSION["profile"]; ?>
                                 <small>Member since <?php echo date("F Y", strtotime($_SESSION["created_at"])); ?></small>
-                            </p>
+                            </p> -->
                         </li>
 
                         <!-- Quick Actions -->

@@ -170,7 +170,7 @@ if($_SESSION["profile"] == "Seller"){
                 <input type="hidden" name="idCategory" id="idCategory" required>
               </div>
             </div>
-			<!-- Log on to codeastro.com for more projects! -->
+			
           </div>
         </div>
         <div class="modal-footer">

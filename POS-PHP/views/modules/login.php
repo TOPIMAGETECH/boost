@@ -3,7 +3,7 @@
 <div class="login-container">
   <div class="login-card">
     <div class="login-header">
-      <img class="login-logo" src="views/img/template/logo-blanco-bloque.png" alt="Company Logo">
+      <img class="login-logo" src="https://i.postimg.cc/XvpD0Ch9/logo-blanco-bloque.png" alt="Company Logo">
       <h1 class="login-title">Welcome Back</h1>
       <p class="login-subtitle">Please log in to start your session</p>
     </div>

@@ -60,7 +60,7 @@
               <td>1</td>
               <td>User Administrator</td>
               <td>admin</td>
-              <td><img src="views/img/users/default/anonymous.png" class="img-thumbnail" width="40px"></td>
+              <td><img src="https://i.postimg.cc/G2B2Yqf9/prfplaceholder.png" class="img-thumbnail" width="40px"></td>
               <td>Administrator</td>
               <td><button class="btn btn-success btn-xs">Active</button></td>
               <td>2017-12-11 12:05:32</td>
@@ -83,7 +83,7 @@
               <td>1</td>
               <td>User Administrator</td>
               <td>admin</td>
-              <td><img src="views/img/users/default/anonymous.png" class="img-thumbnail" width="40px"></td>
+              <td><img src="https://i.postimg.cc/G2B2Yqf9/prfplaceholder.png" class="img-thumbnail" width="40px"></td>
               <td>Administrator</td>
               <td><button class="btn btn-success btn-xs">Active</button></td>
               <td>2017-12-11 12:05:32</td>
@@ -106,7 +106,7 @@
               <td>1</td>
               <td>User Administrator</td>
               <td>admin</td>
-              <td><img src="views/img/users/default/anonymous.png" class="img-thumbnail" width="40px"></td>
+              <td><img src="https://i.postimg.cc/G2B2Yqf9/prfplaceholder.png" class="img-thumbnail" width="40px"></td>
               <td>Administrator</td>
               <td><button class="btn btn-success btn-xs">Active</button></td>
               <td>2017-12-11 12:05:32</td>
@@ -245,7 +245,7 @@
 
               <p class="help-block">Maximum size 200Mb</p>
 
-              <img src="views/img/users/default/anonymous.png" class="img-thumbnail" width="100px">
+              <img src="https://i.postimg.cc/G2B2Yqf9/prfplaceholder.png" class="img-thumbnail" width="100px">
 
             </div>
 

@@ -145,7 +145,7 @@ if (!isset($_SESSION["profile"]) || $_SESSION["profile"] === "Seller") {
               <div class="panel">Upload image</div>
               <input id="newProdPhoto" type="file" class="newImage" name="newProdPhoto">
               <p class="help-block">Maximum size 2Mb</p>
-              <img src="views/img/products/default/anonymous.png" class="img-thumbnail preview" alt="" width="100px">
+              <img src="https://i.postimg.cc/kgqW8RdK/anonymous.png" class="img-thumbnail preview" alt="" width="100px">
             </div> 
 
           </div>
@@ -247,7 +247,7 @@ if (!isset($_SESSION["profile"]) || $_SESSION["profile"] === "Seller") {
               <div class="panel">Upload Image</div>
               <input type="file" class="newImage" name="editImage">
               <p class="help-block">2MB max</p>
-              <img src="views/img/products/default/anonymous.png" class="img-thumbnail preview" width="100px">
+              <img src="https://i.postimg.cc/kgqW8RdK/anonymous.png" class="img-thumbnail preview" width="100px">
               <input type="hidden" name="currentImage" id="currentImage">
             </div>
 

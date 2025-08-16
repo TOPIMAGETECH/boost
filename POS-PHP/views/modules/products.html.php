@@ -60,7 +60,7 @@
 
               <tr>
                 <td>1</td>
-                <td><img src="views/img/products/default/anonymous.png" class="img-thumbnail" width="40px"></td>
+                <td><img src="https://i.postimg.cc/kgqW8RdK/anonymous.png" class="img-thumbnail" width="40px"></td>
                 <td>0001</td>
                 <td>Lorem Ipsum dolor sit</td>
                 <td>Drills</td>
@@ -84,7 +84,7 @@
 
               <tr>
                 <td>1</td>
-                <td><img src="views/img/products/default/anonymous.png" class="img-thumbnail" width="40px"></td>
+                <td><img src="https://i.postimg.cc/kgqW8RdK/anonymous.png" class="img-thumbnail" width="40px"></td>
                 <td>0001</td>
                 <td>Lorem Ipsum dolor sit</td>
                 <td>Drills</td>
@@ -282,7 +282,7 @@
 
               <p class="help-block">Maximum size 2Mb</p>
 
-              <img src="views/img/products/default/anonymous.png" alt="" width="100px">
+              <img src="https://i.postimg.cc/kgqW8RdK/anonymous.png" alt="" width="100px">
 
             </div>
 

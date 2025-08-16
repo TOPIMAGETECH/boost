@@ -13,7 +13,7 @@ if($_SESSION["profile"] == "Special"){
 }
 
 ?>
-<!-- Log on to codeastro.com for more projects! -->
+
 <div class="content-wrapper">
 
   <section class="content-header">
