@@ -1,10 +1,13 @@
 <?php
 
-class Connection {
+class Connection
+{
 
-    public static function connect() {
+    public static function connect()
+    {
         try {
-            $link = new PDO("mysql:host=localhost;dbname=posystem", "root", "");
+            $link = new PDO("mysql:host=localhost;dbname=posystem", "	
+boosdsbd_opoku12", "Image@1321@@@");
             $link->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $link->exec("SET NAMES utf8mb4");
             return $link;
